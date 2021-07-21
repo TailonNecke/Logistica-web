@@ -29,22 +29,7 @@ export const Content = styled.div`
             margin-bottom: 24px;
         }        
         
-        input {
-            
-            background: #212129;
-            border: 2px solid #212129;
-            padding: 16px;
-            width: 100%;
-            color: #666360;
-            margin-top: 4px;
-            
-            flex: 1;
-           
-            &::placeholder {
-                color: #666360;
-            }
-        }
-
+        
         button {
             background: #ff9000;
             height: 56px;
