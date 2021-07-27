@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
-import Tooltip from "../Tooltip"
+
+import Tooltip from "../Tooltip";
 
 interface ContainerProps {
   isFocused: boolean;
@@ -63,11 +64,11 @@ export const Error = styled(Tooltip)`
   margin-left: 16px;
 
   svg {
-    margin 0;
+    margin: 0;
   }
 
-  span{
-    backfround: #c53030;
+  span {
+    background: #c53030;
     color: #fff;
 
     &::before {
