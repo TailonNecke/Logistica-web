@@ -2,7 +2,7 @@ import React from "react";
 
 import GlobalStyle from "./styles/global";
 
-import SigIn from "./pages/SignIn";
+import SigIn from "./pages/Signin";
 
 import { AuthProvider } from "./context/AuthContext";
 
