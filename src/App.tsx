@@ -6,12 +6,17 @@ import SigIn from "./pages/Signin";
 
 import { AuthProvider } from "./context/AuthContext";
 
+import ToastCointainer from "./components/ToastContainer";
+
 const App: React.FC = () => {
   return (
     <>
     <AuthProvider>
     <SigIn />
     </AuthProvider>  
+
+    <ToastCointainer />
+
       <GlobalStyle />
     </>
   );
