@@ -1,24 +1,22 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import GlobalStyle from "./styles/global";
+import GlobalStyle from './styles/global';
 
-import SigIn from "./pages/Signin";
+import SigIn from './Pages/SigIn';
 
-import { AuthProvider } from "./context/AuthContext";
+import AuthProvider from './hooks';
 
-import ToastCointainer from "./components/ToastContainer";
+import Routes from './routes';
 
 const App: React.FC = () => {
   return (
-    <>
-    <AuthProvider>
-    <SigIn />
-    </AuthProvider>  
-
-    <ToastCointainer />
-
+    <Router>
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
       <GlobalStyle />
-    </>
+    </Router>
   );
 };
 

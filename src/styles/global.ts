@@ -9,9 +9,10 @@ export default createGlobalStyle`
     }
 
     body {
-        background: #312e38;
-        color: #FFF;
+        background: #222;
+        color: #fff;
         -webkit-font-smoothing: antialiased;
+        cursor: default;
     }
 
     body, input, button {
