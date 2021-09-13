@@ -14,8 +14,8 @@ import api from '../../service/api';
 
 import { useToast } from '../../hooks/toast';
 
-import Input from '../../components/input';
-import Button from '../../components/button';
+import Input from '../../components/Input';
+import Button from '../../components/Button';
 
 import { Container, Content, Background } from './styles';
 
